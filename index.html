@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Configuración estilo con CSS -->
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <header>
+        <a href="#inicio" aria-label="Ir a la sección de inicio" class="logo">
+            <img src="images/argentina_programa.png" alt="Argentina programa">
+        </a>
+
+        <!-- Boton para menu mobile -->
+        <button id="menu-button">
+            <img src="images/open-menu.svg" id="open-menu">
+            <img src="images/close-menu.svg" id="close-menu">
+        </button>
+
+        <nav>
+            <ul id="menu">
+                <li class="menu-item active">
+                    <a href="#inicio">Inicio</a>
+                </li>
+                <li class="menu-item active">
+                    <a href="#educacion">Educación</a>
+                </li>
+                <li class="menu-item active">
+                    <a href="#experiencia">Experiencia laboral</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <figure class="presentacion-img">
+                <img src="images/profile.jpg" alt="Foto de presentación">
+
+
+
+            </figure>
+            <article class="presentacion">
+                <h1>Hola!<br /> Soy Ivone Aragón</h1>
+                <h2>Auxiliar gerontológico domiciliario</h2>
+                <p>Desde hace poco más de diez años que me desempeño como asistente gerontológico hasta la actualidad;
+                    en la secretaria de integración social para adultos mayores. El área social siempre ha sido de mí
+                    interes. En los tiempos que corren actualmente, en que se ofrecen tantas tecnologías basadas en la
+                    informática,
+                    debido a mi personalidad: curiosa e inquisitiva; Me ha llevado a realizar cursos y capacitaciones
+                    relacionadas. Un área en la que deseso desarrollarme y poder desempeñarme. </p>
+
+
+                <!-- Destacar que es un enlace y no un boton para que funcione -->
+                <!-- Cargar archivo pdf en carpeta y vincular aqui -->
+                <a href="cv/curriculumvitae.pdf" aria-label="Descargar cv" class="boton" target="_blank">Descargar mi
+                    CV</a>
+            </article>
+        </section>
+
+        <section id="educacion">
+            <h1>Educación</h1>
+            <h3>
+                CENS Nº 60, CABA
+            </h3>
+            <p>
+                Titulo secundario: Perito aux. en Relaciones humanas. Marzo de 1991 - Diciembre de 1994.
+            </p>
+            <h3>
+                Subsecretaria de la Tercera edad, CABA
+            </h3>
+            <p>Curso: Auxiliar gerontológico domiciliario. Marzo de 2009 - Marzo de 2010.</p>
+            <h3>
+                Centro de formación profesional Nro. 10 "Raúl Scalabrini Ortíz", CABA
+            </h3>
+            <p>Curso: Administración de consorcios de propiedad horizontal. Marzo de 2005 - Julio de 2005</p>
+            <h3>
+                Centro de formación profesional Nro. 12, CABA
+            </h3>
+            <p>Curso: Auxiliar de conserjeria. Marzo de 2003 - Julio de 2003</p>
+        </section>
+
+        <section id="experiencia">
+            <h1>Experiencia laboral</h1>
+            <h3>
+                Auxiliar gerontológico domiciliario
+            </h3>
+            <p>
+                Sec. Integración social para mayores, CABA. Abril del 2010 - Presente
+            </p>
+            <h3>
+                Administración, logística y selección de personal
+            </h3>
+            <p>
+                Servicios y logística My Friends SRL, CABA. Marzo del 2003 - Marzo 2006
+            </p>
+        </section>
+
+        <section id="contacto">
+            <article class="hablemos">
+                <h2>Hablemos!</h2>
+                <p>Por consultas y oportunidades laborales por favor comunicarse a través de las siguientes redes
+                    sociales. </p>
+            </article>
+
+            <ul id="contact-links">
+                <li>
+                    <a href="mailto:ivone.aragon63@gmail.com" target="_blank" aria-label="Enviar mail">
+                        <img src="images/mail.png" class="contacto">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/iaragon63" target="_blank" aria-label="Ir al perfil de github">
+                        <img src="images/github.png" class="contacto">
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created by Ivone Aragón. ©</p>
+        <p id="year"></p>
+    </footer>
+
+    <!-- Script JS -->
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>
